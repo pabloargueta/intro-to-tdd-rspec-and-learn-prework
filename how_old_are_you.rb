@@ -3,4 +3,4 @@ require relative './current_age_for_birth_year.rb'
 puts "What year were you born in?"
 birth_year = gets.to_i
 
-user_age = current_
+users_age = current_age_for_birth_year(birth_year) + (Time.now.year - 2016)
